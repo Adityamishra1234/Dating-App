@@ -136,9 +136,10 @@ class _LoginState extends State<Login> {
                         const Text("Welcome Back",
                           maxLines: 3,
                           style:  TextStyle(
-                            fontSize: 30,
+                            fontSize: 34,
                             fontWeight: FontWeight.w500,
                             color: Color(0xff414040),
+                              fontFamily: 'Abhaya'
                           ),
                         ),
                         const SizedBox(height: 10,),
@@ -146,9 +147,10 @@ class _LoginState extends State<Login> {
                           textAlign:TextAlign.center,
                           maxLines: 5,
                           style:  TextStyle(
-                            fontSize: 20,
+                            fontSize: 17,
                             fontWeight: FontWeight.w300,
                             color: Colors.grey,
+                              fontFamily: 'Lato'
                           ),
                         ),
                         // const Spacer(),
@@ -186,6 +188,7 @@ class _LoginState extends State<Login> {
                                           style:  TextStyle(
                                             fontSize: 20,
                                             fontWeight: FontWeight.w300,
+                                            fontFamily: 'Lato',
                                             color: Colors.grey,
                                           ),
                                         ),
@@ -221,9 +224,10 @@ class _LoginState extends State<Login> {
                                           textAlign:TextAlign.center,
                                           maxLines: 3,
                                           style:  TextStyle(
-                                            fontSize: 20,
+                                            fontSize: 18,
                                             fontWeight: FontWeight.w400,
                                             color: Colors.grey,
+                                              fontFamily: 'Lato'
                                           ),
                                         ),
                                       ],
@@ -235,8 +239,9 @@ class _LoginState extends State<Login> {
                           ),
                         ),
                         SizedBox(height: 40,),
-                        Text("--------------------------------Or Signup with----------------------------------", style: TextStyle(
-                          color: Colors.grey[400]
+                        Text("-------------------------Or Signup with----------------------------", style: TextStyle(
+                          color: Colors.grey[400],
+                            fontFamily: 'Lato'
                         ),),
                         //text fields
                         Padding(
@@ -273,6 +278,9 @@ class _LoginState extends State<Login> {
                                     enabledBorder: _emailfocusNodeBorder,
                                     focusedBorder: _emailfocusNodeBorder,
                                     hintText: "Enter Your email",
+                                    hintStyle: TextStyle(
+                                        fontFamily: 'Lato'
+                                    )
                                   ),
                                 ),
                               )),
@@ -312,6 +320,9 @@ class _LoginState extends State<Login> {
                                     enabledBorder: _passwordfocusNodeBorder,
                                     focusedBorder: _passwordfocusNodeBorder,
                                     hintText: "Enter Your Password",
+                                    hintStyle: TextStyle(
+                                        fontFamily: 'Lato'
+                                    )
                                   ),
                                 ),
                               )),

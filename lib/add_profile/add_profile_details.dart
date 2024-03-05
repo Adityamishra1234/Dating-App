@@ -144,23 +144,25 @@ class _AddProfileDetailsState extends State<AddProfileDetails> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const SizedBox(height: 20,),
-                Padding(
-                  padding: const EdgeInsets.only(left: 18.0, bottom: 5),
-                  child: const Text(
+                const Padding(
+                  padding: EdgeInsets.only(left: 18.0, bottom: 2),
+                  child: Text(
                     "Add Profile Details",style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
+                      fontFamily: 'Abhaya',
                     fontSize: 25
                   ),
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 18.0, bottom: 30),
+                  padding: const EdgeInsets.only(left: 18.0, bottom: 35),
                   child: Text(
                     "Please add your profile details here",style: TextStyle(
                     color: Colors.grey[400],
                     fontWeight: FontWeight.w400,
-                    fontSize: 18
+                    fontSize: 18,
+                      fontFamily: 'Lato'
                   ),
                   ),
                 ),
@@ -208,7 +210,10 @@ class _AddProfileDetailsState extends State<AddProfileDetails> {
                             enabledBorder: _namefocusNodeBorder,
                             focusedBorder: _namefocusNodeBorder,
                             hintText: "Name",
-                            hintStyle: const TextStyle(color: Color(0xffF26B8A)),
+                            hintStyle: const TextStyle(
+                                color: Color(0x80F26B8A),
+                                fontFamily: 'Lato'
+                            ),
                           ),
                         ),
                       )),
@@ -246,7 +251,10 @@ class _AddProfileDetailsState extends State<AddProfileDetails> {
                             enabledBorder: _emailfocusNodeBorder,
                             focusedBorder: _emailfocusNodeBorder,
                             hintText: "Email address",
-                            hintStyle: const TextStyle(color: Color(0xffF26B8A)),
+                            hintStyle: const TextStyle(
+                                color: Color(0x80F26B8A),
+                                fontFamily: 'Lato'
+                            ),
 
                           ),
                         ),
@@ -286,7 +294,10 @@ class _AddProfileDetailsState extends State<AddProfileDetails> {
                             enabledBorder: _numberfocusNodeBorder,
                             focusedBorder: _numberfocusNodeBorder,
                             hintText: "Mobile Number",
-                            hintStyle: const TextStyle(color: Color(0xffF26B8A)),
+                            hintStyle: const TextStyle(
+                                color: Color(0x80F26B8A),
+                                fontFamily: 'Lato'
+                            ),
 
                           ),
                         ),
@@ -331,7 +342,10 @@ class _AddProfileDetailsState extends State<AddProfileDetails> {
                             enabledBorder: _dobfocusNodeBorder,
                             focusedBorder: _dobfocusNodeBorder,
                             hintText: "Date Of Birth",
-                            hintStyle: const TextStyle(color: Color(0xffF26B8A)),
+                            hintStyle: const TextStyle(
+                                color: Color(0x80F26B8A),
+                                fontFamily: 'Lato'
+                            ),
 
                           ),
                         ),
@@ -371,7 +385,10 @@ class _AddProfileDetailsState extends State<AddProfileDetails> {
                             enabledBorder: _addressfocusNodeBorder,
                             focusedBorder: _addressfocusNodeBorder,
                             hintText: "Enter Address",
-                            hintStyle: const TextStyle(color: Color(0xffF26B8A)),
+                            hintStyle: const TextStyle(
+                                color: Color(0x80F26B8A),
+                                fontFamily: 'Lato'
+                            ),
 
                           ),
                         ),

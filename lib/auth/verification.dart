@@ -100,6 +100,7 @@ class _verificationState extends State<verification> {
                                         fontSize: 30,
                                         fontWeight: FontWeight.w500,
                                         color: Color(0xff414040),
+                                          fontFamily: 'Abhaya'
                                       ),
                                     ),
                                     const SizedBox(height: 5,),
@@ -109,6 +110,7 @@ class _verificationState extends State<verification> {
                                         fontSize: 15,
                                         fontWeight: FontWeight.w400,
                                         color: Colors.grey,
+                                          fontFamily: 'Lato'
                                       ),
                                     ),
                                     const SizedBox(height: 35,),
@@ -156,7 +158,7 @@ class _verificationState extends State<verification> {
                                       child: LoginButton(title: "Continue",
                                           onTap: (){
                                             // verifyOtp();
-                                            Navigator.push(context, MaterialPageRoute(builder: (context)=>const AddProfileDetails()));
+                                            Navigator.push(context, MaterialPageRoute(builder: (context)=> const AddProfileDetails()));
 
                                           },
 

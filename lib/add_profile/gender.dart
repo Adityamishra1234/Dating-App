@@ -19,6 +19,11 @@ class _GenderState extends State<Gender> {
 
   int current = 0;
 
+  List<IconData> gender = [
+    Icons.male,
+    Icons.female,
+  ];
+
 
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -38,12 +43,13 @@ class _GenderState extends State<Gender> {
                 children: [
                   const SizedBox(height: 20,),
                   const Padding(
-                    padding: const EdgeInsets.only(left: 18.0, bottom: 5),
+                    padding: const EdgeInsets.only(left: 18.0, bottom: 2),
                     child: const Text(
                       "Select Gender",style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 25
+                        fontSize: 28,
+                        fontFamily: 'Abhaya'
                     ),
                     ),
                   ),
@@ -53,7 +59,8 @@ class _GenderState extends State<Gender> {
                       "Please Select Your Gender",style: TextStyle(
                         color: Colors.grey[400],
                         fontWeight: FontWeight.w400,
-                        fontSize: 18
+                        fontSize: 18,
+                        fontFamily: 'Lato'
                     ),
                     ),
                   ),
@@ -80,8 +87,8 @@ class _GenderState extends State<Gender> {
                                   color: current ==index?const Color(0xffF26B8A): const Color(0x20F26B8A),
                                   borderRadius: current == index ? BorderRadius.all(Radius.circular(20)):BorderRadius.all(Radius.circular(20)),
                                 ),
-                                duration: Duration(milliseconds: 200),
-                                child: Center(child: current==index? const Icon(Icons.male, color: Color(0xffFFFFFF),size: 60,): const Icon(Icons.male, color: Colors.black,size: 60,),),
+                                duration: const Duration(milliseconds: 200),
+                                child: Center(child: current==index? Icon(gender[index], color: Color(0xffFFFFFF),size: 60,): Icon(gender[index], color: Colors.black,size: 60,),),
                               ),
                             );
                           }

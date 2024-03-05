@@ -28,7 +28,6 @@ class _HomePageState extends State<HomePage> {
                 Row(
                   children: [
                     Container(
-                      // color: Colors.indigo,
                         margin: const EdgeInsets.fromLTRB(16, 10, 18, 10),
                         width: MediaQuery.of(context).size.width/(5/3.8),
                         child: search_bar()
@@ -100,8 +99,8 @@ class _HomePageState extends State<HomePage> {
                                             // mainAxisAlignment: MainAxisAlignment.start,
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
-                                              Text("Alia, 22" , style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),),
-                                              Text("Tattoo Artist" , style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.white),),
+                                              Text("Alia, 22" , style: TextStyle(fontFamily: 'Abhaya', fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),),
+                                              Text("Tattoo Artist" , style: TextStyle(fontFamily: 'PlayfairDisplay', fontSize: 18, fontWeight: FontWeight.normal, color: Colors.white),),
                                             ],
                                           ),
                                           Container(
@@ -220,11 +219,11 @@ class _HomePageState extends State<HomePage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text("Location",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                  const Text("Location",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, fontFamily: 'Abhaya'),),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("India, New Delhi" , style: TextStyle(fontSize: 14, fontWeight: FontWeight.normal, color: Colors.grey.shade400),),
+                      Text("India, New Delhi" , style: TextStyle(fontFamily: 'Lato', fontSize: 14, fontWeight: FontWeight.normal, color: Colors.grey.shade400),),
                     ],
                   ),
                 ],
@@ -301,7 +300,8 @@ class _HomePageState extends State<HomePage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     // Image.asset("assets/images/slashbar.png" , scale: 3.5,),
-                    const Text("Filter" , style: TextStyle(fontSize: 20 , fontWeight: FontWeight.bold ),),
+                    const Text("Filter" , style: TextStyle(fontFamily: 'Abhaya',
+                        fontSize: 25 , fontWeight: FontWeight.bold ),),
                     Divider(height: 20,thickness: 1, color: Colors.grey.shade300,),
                     const SizedBox(
                       height: 15,
@@ -325,7 +325,7 @@ class _HomePageState extends State<HomePage> {
                     const SizedBox(
                       height: 20,
                     ),
-                    const Text("Distance" , style: TextStyle(fontSize: 20 , fontWeight: FontWeight.bold ),),
+                    const Text("Distance" , style: TextStyle(fontSize: 18 , fontWeight: FontWeight.bold ,fontFamily: 'Lato'),),
                     RangeSlider(
                       values: _values,
                       onChanged: (RangeValues newValues) {
@@ -342,7 +342,7 @@ class _HomePageState extends State<HomePage> {
                     const SizedBox(
                       height: 20,
                     ),
-                    const Text("Age" , style: TextStyle(fontSize: 20 , fontWeight: FontWeight.bold ),),
+                    const Text("Age" , style: TextStyle(fontSize: 18 , fontWeight: FontWeight.bold,fontFamily: 'Lato' ),),
                     RangeSlider(
                       values: _ageValues,
                       onChanged: (RangeValues newValues) {
@@ -359,7 +359,7 @@ class _HomePageState extends State<HomePage> {
                     const SizedBox(
                       height: 20,
                     ),
-                    const Text("Interested In" , style: TextStyle(fontSize: 20 , fontWeight: FontWeight.bold ),),
+                    const Text("Interested In" , style: TextStyle(fontSize: 18 , fontWeight: FontWeight.bold,fontFamily: 'Lato' ),),
                     const SizedBox(
                       height: 14,
                     ),

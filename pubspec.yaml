@@ -68,6 +68,50 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato/Lato-Black.ttf
+        - asset: assets/fonts/Lato/Lato-BlackItalic.ttf
+        - asset: assets/fonts/Lato/Lato-Bold.ttf
+        - asset: assets/fonts/Lato/Lato-BoldItalic.ttf
+        - asset: assets/fonts/Lato/Lato-Heavy.ttf
+        - asset: assets/fonts/Lato/Lato-HeavyItalic.ttf
+        - asset: assets/fonts/Lato/Lato-Italic.ttf
+        - asset: assets/fonts/Lato/Lato-Light.ttf
+        - asset: assets/fonts/Lato/Lato-LightItalic.ttf
+        - asset: assets/fonts/Lato/Lato-Medium.ttf
+        - asset: assets/fonts/Lato/Lato-MediumItalic.ttf
+        - asset: assets/fonts/Lato/Lato-Regular.ttf
+        - asset: assets/fonts/Lato/Lato-SemiBold.ttf
+        - asset: assets/fonts/Lato/Lato-SemiBoldItalic.ttf
+        - asset: assets/fonts/Lato/Lato-Thin.ttf
+        - asset: assets/fonts/Lato/Lato-ThinItalic.ttf
+    - family: Abhaya
+      fonts:
+        - asset: assets/fonts/Abhaya/AbhayaLibre-Bold.ttf
+        - asset: assets/fonts/Abhaya/AbhayaLibre-ExtraBold.ttf
+        - asset: assets/fonts/Abhaya/AbhayaLibre-Medium.ttf
+        - asset: assets/fonts/Abhaya/AbhayaLibre-Regular.ttf
+        - asset: assets/fonts/Abhaya/AbhayaLibre-SemiBold.ttf
+    - family: Northwell
+      fonts:
+        - asset: assets/fonts/Northwell/Northwell.otf
+        - asset: assets/fonts/Northwell/Northwell.ttf
+        - asset: assets/fonts/Northwell/Northwell-Alt.otf
+        - asset: assets/fonts/Northwell/Northwell-Alt.ttf
+        - asset: assets/fonts/Northwell/Northwell-Swash.otf
+        - asset: assets/fonts/Northwell/Northwell-Swash.ttf
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-ExtraBold.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-ExtraBoldItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.ttf
 #     - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

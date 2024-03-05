@@ -43,14 +43,16 @@ class _AboutUserState extends State<AboutUser> {
                               "Parul Sharma",style: TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold,
-                                fontSize: 20
+                                fontSize: 20,
+                                fontFamily: 'Lato'
                             ),
                             ),
                             Text(
                               "Entrepreneur",style: TextStyle(
                                 color: Colors.grey,
                                 fontWeight: FontWeight.w400,
-                                fontSize: 14
+                                fontSize: 14,
+                                fontFamily: 'Lato'
                             ),
                             ),
                           ],
@@ -77,17 +79,25 @@ class _AboutUserState extends State<AboutUser> {
                        "About",style: TextStyle(
                          color: Colors.black,
                          fontWeight: FontWeight.bold,
-                         fontSize: 16
+                         fontSize: 18,
+                         fontFamily: 'Abhaya'
                      ),
                      ),
                      const SizedBox(height: 10,),
                      ReadMoreText(
-                       "In the heart of bustling New York City, amidst the constant symphony of honking horns and hurried footsteps, there exists a figure whose presence seems to carve out a tranquil oasis within the chaos. Meet Alex Thompson, a enigmatic soul with an insatiable thirst for adventure and a heart brimming with compassion.With a shock of unruly curls that seem to dance in the wind and eyes as deep and mysterious as the ocean, Alex possesses an allure that draws people in like moths to a flame. Despite the cacophony of urban life, there's an unmistakable serenity that surrounds them, a calming presence that whispers tales of faraway lands and untold dreams. Born with a restless spirit, Alex has traversed the globe, from the misty highlands of Scotland to the sun-kissed beaches of Bali, each journey leaving an indelible mark on their soul. They are a seeker of experiences, a collector of memories, and a connoisseur of life's most precious moments. But beneath the veneer of wanderlust lies a heart of gold. Alex's compassion knows no bounds, and they can often be found lending a helping hand to those in need or championing causes close to their heart. Whether it's volunteering at the local shelter or fighting for environmental justice, Alex is a beacon of light in a world that often feels shrouded in darkness.Yet, for all their worldly adventures and noble deeds, there's a sense of longing that lingers in Alex's eyes, a yearning for something elusive and intangible. Perhaps it's the quest for meaning or the search for belonging, but whatever it may be, one thing is certain: Alex's journey is far from over, and the world is but a canvas upon which they will continue to paint their vibrant tapestry of life. So, if you ever find yourself wandering the bustling streets of New York City and happen upon a figure with a smile as warm as the sun and eyes as deep as the ocean, take a moment to pause and listen, for you may just hear the whispered echoes of a soul in search of its place in the world — the enigmatic spirit of Alex Thompson.",
-                       trimLines: 3,
+                       trimLines: 4,
+                       "In the heart of bustling New York City, amidst the constant symphony of honking horns and hurried footsteps, "
+                           "there exists a figure whose presence seems to carve out a "
+                           "tranquil oasis within the chaos. Meet Alex Thompson, a "
+                           "enigmatic soul with an insatiable thirst for adventure and a heart brimming with compassion.W"
+                           "ith a shock of unruly curls that seem to dance in the wind and eyes as deep and mysterious as the ocean, Alex"
+                           " possesses an allure that draws people in like moths to a flame. Despite the cacophony of urban life, there's "
+                           "an unmistakable serenity that surrounds them, a calming presence that whispers tales of faraway lands and unto",
                        style: TextStyle(
-                         fontSize: 14,
+                         fontSize: 13,
                          height: 1.2,
-                         color: Colors.grey[500]
+                         color: Colors.grey[500],
+                           fontFamily: 'Lato'
                        ),
                        // colorClickableText: Colors.pink,
                        trimMode: TrimMode.Line,
@@ -97,9 +107,10 @@ class _AboutUserState extends State<AboutUser> {
                        ' Show less',
                        textAlign: TextAlign.start,
                        moreStyle: const TextStyle(
-                         fontSize: 14,
+                         fontSize: 15,
                          fontWeight: FontWeight.bold,
                          color: Color(0xffF26B8A),
+                           fontFamily: 'Abhaya'
                        ),
                      ),
                      const SizedBox(height: 30,),
@@ -109,7 +120,8 @@ class _AboutUserState extends State<AboutUser> {
                        "Interests",style: TextStyle(
                          color: Colors.black,
                          fontWeight: FontWeight.bold,
-                         fontSize: 16
+                         fontSize: 18,
+                         fontFamily: 'Abhaya'
                      ),
                      ),
                      const SizedBox(height: 10,),
@@ -119,7 +131,9 @@ class _AboutUserState extends State<AboutUser> {
                        "Gallery",style: TextStyle(
                          color: Colors.black,
                          fontWeight: FontWeight.bold,
-                         fontSize: 16
+                         fontSize: 18,
+                         fontFamily: 'Abhaya'
+
                      ),
                      ),
                      const SizedBox(height: 10,),

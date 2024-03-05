@@ -1,6 +1,7 @@
 // import 'package:doctor_hunt/HomeScreen/home_screen.dart';
 
 // import 'package:doctor_hunt/widgets/bottom_navigation_bar.dart';
+import 'package:dating_app/Widgets/bottomNavBar.dart';
 import 'package:flutter/material.dart';
 
 import '../auth/login.dart';
@@ -91,9 +92,10 @@ class _IntroductionState extends State<Introduction> {
                 contents[currentIndex].discription,
                 maxLines: 2,
                 style: const TextStyle(
-                  fontSize: 27,
+                  fontSize: 28,
                   fontWeight: FontWeight.w400,
                   color: Color(0xff414040),
+                  fontFamily: 'Abhaya',
                 ),
               ),
             ),
@@ -107,6 +109,7 @@ class _IntroductionState extends State<Introduction> {
                 contents[currentIndex].discription1,
                 maxLines: 10,
                 style: const TextStyle(
+                  fontFamily: 'Lato',
                   fontSize: 18,
                   fontWeight: FontWeight.w300,
                   color: Color(0xff414040),
@@ -130,7 +133,7 @@ class _IntroductionState extends State<Introduction> {
                   //   duration: const Duration(milliseconds: 100),
                   //   curve: Curves.bounceIn,
                   // );
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Login()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> const Login()));
                 },
               ),
             ),
@@ -143,8 +146,8 @@ class _IntroductionState extends State<Introduction> {
               width: double.infinity,
               child:  GestureDetector(
                 onTap: () {
-                  // Navigator.push(context,
-                  //     MaterialPageRoute(builder: (context) => const Register()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const HomeBar()));
                 },
                 child: const Center(
                     child: Text("Skip",
@@ -168,7 +171,7 @@ class _IntroductionState extends State<Introduction> {
                             color: Color(0xff808080),
                             fontWeight: FontWeight.w600,
                             height: 1.5,
-                            fontSize: 13,
+                            fontSize: 12,
                             fontFamily: 'Lato')),
                   ],
                 )),

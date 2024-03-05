@@ -101,6 +101,7 @@ class _forgotpasswordState extends State<forgotpassword> {
                                         fontSize: 30,
                                         fontWeight: FontWeight.w500,
                                         color: Color(0xff414040),
+                                          fontFamily: 'Abhaya'
                                       ),
                                     ),
                                     const SizedBox(height: 5,),
@@ -110,6 +111,7 @@ class _forgotpasswordState extends State<forgotpassword> {
                                         fontSize: 15,
                                         fontWeight: FontWeight.w400,
                                         color: Colors.grey,
+                                          fontFamily: 'Lato'
                                       ),
                                     ),
                                     const SizedBox(height: 35,),
@@ -150,6 +152,9 @@ class _forgotpasswordState extends State<forgotpassword> {
                                               enabledBorder: _otpfocusNodeBorder,
                                               focusedBorder: _otpfocusNodeBorder,
                                               hintText: "Enter Your Number",
+                                              hintStyle: TextStyle(
+                                                  fontFamily: 'Lato'
+                                              )
                                             ),
                                           ),
                                         )),

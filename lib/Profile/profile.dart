@@ -25,14 +25,15 @@ class _DatingProfilePageState extends State<DatingProfilePage> {
             ),
             const CircleAvatar(
               radius: 35,
+              backgroundColor: CupertinoColors.placeholderText,
               backgroundImage: AssetImage("assets/images/datingProfilepic.jpg"),
 
             ),
             const SizedBox(
               height: 10,
             ),
-            const Text("Saksham Vashishtha" , style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900),),
-            const Text("markjohnson@gmail.com" , style: TextStyle( color: Colors.grey , fontSize: 16, fontWeight: FontWeight.normal),),
+            const Text("Aditya Mishra" , style: TextStyle(fontFamily: 'Abhaya',fontSize: 22, fontWeight: FontWeight.w800),),
+            const Text("meaditya847@gmail.com" , style: TextStyle( fontFamily: 'Lato',color: Colors.grey , fontSize: 15, fontWeight: FontWeight.normal),),
             const SizedBox(
               height: 20,
             ),
@@ -42,7 +43,7 @@ class _DatingProfilePageState extends State<DatingProfilePage> {
                 children: [
                   const ListTile(
                     leading: Icon(Icons.person , size: 30,),
-                    title: Text("Personal Detail" , style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),),
+                    title: Text("Personal Detail" , style: TextStyle(fontFamily: 'Lato',fontSize: 16, fontWeight: FontWeight.w400),),
                     trailing: Icon(Icons.arrow_right , size: 30,),
                   ),
                   Padding(
@@ -51,7 +52,7 @@ class _DatingProfilePageState extends State<DatingProfilePage> {
                   ),
                   const ListTile(
                     leading: Icon(Icons.settings , size: 30,),
-                    title: Text("Settings" , style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),),
+                    title: Text("Settings" , style: TextStyle(fontFamily: 'Lato',fontSize: 16, fontWeight: FontWeight.w400),),
                     trailing: Icon(Icons.arrow_right , size: 30,),
                   ),
                   Padding(
@@ -60,7 +61,7 @@ class _DatingProfilePageState extends State<DatingProfilePage> {
                   ),
                   const ListTile(
                     leading: Icon(Icons.browser_updated_rounded , size: 30,),
-                    title: Text("Terms & Conditions" , style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),),
+                    title: Text("Terms & Conditions" , style: TextStyle(fontFamily: 'Lato',fontSize: 16, fontWeight: FontWeight.w400),),
                     trailing: Icon(Icons.arrow_right , size: 30,),
                   ),
                   Padding(
@@ -69,7 +70,7 @@ class _DatingProfilePageState extends State<DatingProfilePage> {
                   ),
                   const ListTile(
                     leading: Icon(Icons.notification_important_sharp , size: 30,),
-                    title: Text("Privacy Policy" , style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),),
+                    title: Text("Privacy Policy" , style: TextStyle(fontFamily: 'Lato',fontSize: 16, fontWeight: FontWeight.w400),),
                     trailing: Icon(Icons.arrow_right , size: 30,),
                   ),
                   Padding(
@@ -78,7 +79,7 @@ class _DatingProfilePageState extends State<DatingProfilePage> {
                   ),
                   const ListTile(
                     leading: Icon(Icons.remove_red_eye_rounded , size: 30,),
-                    title: Text("About Us" , style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),),
+                    title: Text("About Us" , style: TextStyle(fontFamily: 'Lato',fontSize: 16, fontWeight: FontWeight.w400),),
                     trailing: Icon(Icons.arrow_right , size: 30,),
                   ),
                   Padding(
@@ -87,7 +88,7 @@ class _DatingProfilePageState extends State<DatingProfilePage> {
                   ),
                   const ListTile(
                     leading: Icon(Icons.logout , size: 30,),
-                    title: Text("Logout" , style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),),
+                    title: Text("Logout" , style: TextStyle(fontFamily: 'Lato',fontSize: 16, fontWeight: FontWeight.w400),),
                     trailing: Icon(Icons.arrow_right , size: 30,),
                   ),
                   Padding(
